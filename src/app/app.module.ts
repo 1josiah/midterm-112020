@@ -13,6 +13,37 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { FngAccordionComponent } from './fng-accordion/fng-accordion.component';
+import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
+import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
+import { MyResumeComponent } from './my-resume/my-resume.component';
+import { ResumeEducationComponent } from './resume-education/resume-education.component';
+import { ResumeFooterComponent } from './resume-footer/resume-footer.component';
+import { ResumeProfileComponent } from './resume-profile/resume-profile.component';
+import { ResumeWorkExperienceComponent } from './resume-work-experience/resume-work-experience.component';
+
+import { LightboxModule } from 'ngx-lightbox';
+
+import {
+  AccordionModule,
+  AlertModule,        // Foundation Callouts
+  ButtonsModule,
+  CarouselModule,     // Foundation Orbit
+  CollapseModule,
+  BsDatepickerModule,
+  BsDropdownModule,   // Foundation Dropdown Menus and Dropdown Panes
+  ModalModule,        // Foundation Reveal
+  OffcanvasModule,
+  PaginationModule,
+  ProgressbarModule,
+  RatingModule,
+  SortableModule,
+  TabsModule,
+  TimepickerModule,
+  TooltipModule,
+  TypeaheadModule,
+} from 'ngx-foundation';
+
 
 @NgModule({
   imports: [
@@ -33,7 +64,15 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    FngAccordionComponent,
+    GraphicDesignComponent,
+    PortfolioLightboxComponent,
+    MyResumeComponent,
+    ResumeEducationComponent,
+    ResumeFooterComponent,
+    ResumeProfileComponent,
+    ResumeWorkExperienceComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]

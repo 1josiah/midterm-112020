@@ -9,11 +9,12 @@ export class TopBarComponent implements OnInit {
 
   constructor() { }
 
+  isOffcanvas = true;
+  
   ngOnInit() {
   }
 
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
